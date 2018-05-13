@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+}
+header nav {
+    float: right;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+header nav ul li a img {
+    position: absolute;
+    top: 16px;
+    right: 80px;
+    margin: 0px 15px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li button {
+    padding: 5px 10px;
+    border: 1px solid #4385F7;
+    background-color: #4385F7;
+    color: #FFF7FC;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.container {
+    clear: right;
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.container .search {
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.container .search a img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container .search a:hover {
+    cursor: pointer;
+}
+
+.container .search input[type="text"] {
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-shadow: 3px 3px 20px grey; 
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.container .src-btn {
+    width: 100%;
+    margin-bottom: 95px;    
+}
+
+.src-btn .src {
+    width: 49%;
+    margin-right: 2%;
+    float: left;
+}
+
+.src-btn .src button {
+    background-color: #F2F2F2;
+    height: 35px;
+    width: 60%;
+    padding: 10px 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #757575;
+    float: right;
+}
+
+.src-btn .lucky {
+    width: 49%;
+    float: left;
+}
+
+.src-btn .lucky button {
+    background-color: #F2F2F2;
+    height: 35px;
+    width: 60%;
+    padding: 10px 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #757575;
+    float: left;
+}
+
+.src-btn .lucky button:hover, .src-btn .src button:hover {
+    color: #222222;
+    border: 1px solid #C6C6C6;
+}
+
+.container .lang p {
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.container .lang p a {
+    text-decoration: none;
+}
+
+.container .lang p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    margin: 0px;
+}
+
+footer .wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper .country {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+footer .country p {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #717180;
+    padding: 0px 30px;
+    margin: 10px 0px;
+}
+
+.wrapper .terms {
+    background-color: #F2F2F2;
+}
+
+.wrapper ul {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.wrapper hr {
+    margin: 0px;
+}
+
+.wrapper .part1 {
+    width: 50%;
+    float: left;
+    background-color: #F2F2F2;
+}
+
+.wrapper .part1 ul {
+    margin-left: -10px;
+}
+
+.wrapper .part2 {
+    width: 50%;
+    float: left;
+    text-align: right;
+    background-color: #F2F2F2;
+}
+
+.wrapper .part1 li, .wrapper .part2 li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 0px;
+}
+
+.wrapper .part1 li a, .wrapper .part2 li a {
+    text-decoration: none;
+    color: grey;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wrapper .part1 li a:hover, .wrapper .part2 li a:hover {
+    text-decoration: underline;
+} 
+
